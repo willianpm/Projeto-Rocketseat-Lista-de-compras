@@ -1,11 +1,26 @@
 * {
-  margin: 200;
-  padding: 200;
+  margin: 0;
+  padding: 0;
   box-sizing: border-box;
 }
 
 body {
   background-color: F4F5FB;
+}
+
+.header-content {
+  padding: 0 32px;
+}
+
+#container0 {
+  width: 100%;
+  max-width: 588px;
+  margin: 50px auto 0px;
+  padding: 0 32px;
+}
+
+#container1 {
+  margin: 32px;
 }
 
 #back-button {
@@ -17,6 +32,7 @@ body {
 
 .add-item-container {
   display: flex;
+  flex-direction: column;
   gap: 16px;
   margin-top: 25px;
 }
@@ -49,4 +65,11 @@ body {
 
 .btn-add:hover {
   background-color: #d63083;
+}
+
+#container2 {
+  width: 100%;
+  max-width: 232px;
+  margin: 50px auto 0px;
+  padding: 0 32px;
 }
